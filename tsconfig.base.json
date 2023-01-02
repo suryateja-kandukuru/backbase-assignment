@@ -17,7 +17,8 @@
     "paths": {
       "@back-base-assignment/shared-components": [
         "libs/shared-components/src/index.ts"
-      ]
+      ],
+      "@back-base-assignment/shared-lib": ["libs/shared-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

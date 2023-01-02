@@ -7,5 +7,11 @@ import { EventEmitter } from '@angular/core';
   styleUrls: ['./b-button.component.scss'],
 })
 export class BButtonComponent {
+  @Input() bName!: string
 
+  @Output() buttonClick = new EventEmitter()
+
+  onButtonClick() {
+    this.buttonClick.emit()
+  }
 }

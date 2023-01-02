@@ -11,4 +11,8 @@ export const appRoutes: Route[] = [
     loadChildren: () =>
       import('application-b/Module').then((m) => m.RemoteEntryModule),
   },
+  {
+    path: 'library',
+    loadChildren: () => import('./library/library.module').then(m => m.SharedLibraryModule)
+  }
 ];
