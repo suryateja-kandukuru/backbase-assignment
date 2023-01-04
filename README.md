@@ -4,7 +4,6 @@ back-base-assignment uses **nx** repository(Monorepo). It has three angular apps
 
 - Application-a app - Host
 - Application-b app - Remote
-- Application-x - Normal
 
 It has two librarys.
 
