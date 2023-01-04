@@ -1,3 +1,4 @@
+import { SharedComponentsModule } from '@back-base-assignment/shared-components';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -8,7 +9,7 @@ import { remoteRoutes } from './entry.routes';
 
 @NgModule({
   declarations: [RemoteEntryComponent, NxWelcomeComponent],
-  imports: [CommonModule, RouterModule.forChild(remoteRoutes)],
+  imports: [CommonModule, RouterModule.forChild(remoteRoutes), SharedComponentsModule],
   providers: [],
 })
 export class RemoteEntryModule {}

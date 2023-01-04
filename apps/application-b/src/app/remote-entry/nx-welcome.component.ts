@@ -4,7 +4,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'back-base-assignment-nx-welcome',
-  template: `<div>App 2</div>`,
+  template: `<div>App 2
+  </div>
+`,
   styles: [],
   encapsulation: ViewEncapsulation.None,
 })
