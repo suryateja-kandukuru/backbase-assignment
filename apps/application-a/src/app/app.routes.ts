@@ -13,6 +13,6 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'library',
-    loadChildren: () => import('./library/library.module').then(m => m.SharedLibraryModule)
+    loadChildren: () => import('@back-base-assignment/shared-lib').then(m => m.SharedLibModule)
   }
 ];
