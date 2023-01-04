@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('/node_modules/primeicons/primeicons.css');
+@import url('/node_modules/primeng/resources/primeng.min.css');
+@import url('/node_modules/primeng/resources/themes/tailwind-light/theme.css');
+
+body {
+  height: 100%;
+  background-color: aliceblue;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

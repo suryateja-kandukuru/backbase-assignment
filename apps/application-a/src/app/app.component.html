@@ -1,7 +1,28 @@
-<ul class="remote-menu">
+<!-- <ul class="remote-menu">
   <li><a routerLink="">Home</a></li>
   <li><a routerLink="application-b">ApplicationB</a></li>
   <li><a routerLink="library">Library page</a></li>
 
 </ul>
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+
+<div class="application-a-container">
+  <p-sidebar class="menuSidebar" [(visible)]="display" [modal]="false">
+    <div *ngFor="let ele of navRoutes" class="nav-item"
+      [routerLink]="ele.routerLink" routerLinkActive="active">
+     <div class="flex">
+      <i [ngClass]="'pi '+ele.icon"></i>
+      <div class="route-label">
+        {{ ele.routeName }}
+      </div>
+     </div>
+
+
+
+    </div>
+  </p-sidebar>
+  <div class="outlet card">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

@@ -19,7 +19,8 @@
           "apps/application-a/src/favicon.ico",
           "apps/application-a/src/assets"
         ],
-        "styles": ["apps/application-a/src/styles.scss"],
+        "styles": ["apps/application-a/src/styles.scss"
+      ],
         "scripts": [],
         "customWebpackConfig": {
           "path": "apps/application-a/webpack.config.js"

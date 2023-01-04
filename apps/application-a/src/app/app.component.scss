@@ -1,0 +1,52 @@
+.application-a-container {
+  .card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+
+  .active {
+    color: #0767A1;
+    background-color: #EEF4F9;
+  }
+
+  .nav-item {
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+    div {
+      display: flex;
+      align-items:baseline;
+      margin: 8px;
+    }
+  }
+
+  .nav-item:hover{
+    color: #0767A1;
+    background-color: #EEF4F9;
+  }
+
+  ::ng-deep {
+    .menuSidebar{
+      .p-sidebar {
+        width: 14rem !important;
+        background: #EEF4F9 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+      }
+      .p-sidebar-content {
+        background-color: white;
+        padding: unset !important;
+        height: 100% !important;
+      }
+      .p-sidebar-header, .p-sidebar-footer {
+        display: none !important;
+      }
+    }
+  }
+}
+.outlet {
+  margin-left: 14.5rem;
+}
+
